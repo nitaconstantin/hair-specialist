@@ -20,7 +20,7 @@ function HsTestimonials() {
               </div>
             </div>
           </div>
-          {/* <div className="col-12 hsTestimonials-item">
+          <div className="col-12 hsTestimonials-item">
             <div className="hsTestimonials-item-img item-img-2">
               <div className="hsTestimonials-item-overlay">
                 <div className="hsTestimonials-content">
@@ -45,7 +45,7 @@ function HsTestimonials() {
                 </div>
               </div>
             </div>
-          </div> */}
+          </div>
         </div>
       </div>
     </div>

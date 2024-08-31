@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+/* Based on Bootstrap*/
+@mixin sm {
+  /* Small devices (portrait tablets and large phones, 481px and up) */
+  @media only screen and (min-width: 576px) {
+    @content;
+  }
+}
+
+@mixin md {
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    @content;
+  }
+}
+
+@mixin lg {
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    @content;
+  }
+}
+
+@mixin xlg {
+  // X-Large devices (large desktops, 1200px and up)
+  @media only screen and (min-width: 1200px) {
+    @content;
+  }
+}
+
+@mixin xxlg {
+  /* Extra large // XX-Large devices (larger desktops, 1400px and up)
+ (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1400px) {
+    @content;
+  }
+}
+
+body {
+  font-family: "Oswald";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5rem;
+  background-color: #212529;
+}
+
+/* Colors*/
+$bs-gray-dark: #343a40;
+$bs-light: #f8f9fa;
+$bs-white: #fff;
+$darkgold: #b98e17;
+$tpblack: #00000073;
+$blue: #0d6efd;
+$indigo: #6610f2;
+$purple: #6f42c1;
+$pink: #d63384;
+$red: #dc3545;
+$orange: #fd7e14;
+$darkgold: #b98e17;
+$tpgraygold: #b7902561;
+$yellow: #ffc107;
+$green: #198754;
+$teal: #20c997;
+$cyan: #0dcaf0;
+$white: #fff;
+$gray: #6c757d;
+$graywhite: #9f9f9f;
+$gray-dark: #343a40;
+$primary: #0d6efd;
+$secondary: #6c757d;
+$success: #198754;
+$info: #0dcaf0;
+$warning: #ffc107;
+$danger: #dc3545;
+$light: #f8f9fa;
+$dark: #212529;
+$soliddark: #0000;
+
+/Constants/ h2 {
+  color: $bs-light;
+  font-weight: bold;
+  line-height: 2.5rem;
+  font-family: "Oswald";
+  letter-spacing: 0;
+  margin-bottom: 15px;
+}
+h3 {
+  color: $bs-light;
+  font-weight: bold;
+  line-height: 2.5rem;
+  font-family: "Oswald";
+  letter-spacing: 0;
+  margin-bottom: 15px;
+  font-size: calc(1.3rem + 0.6vw);
+}
+
+h4 {
+  margin-top: 0;
+  font-weight: 500;
+  font-size: calc(1.275rem + 0.3vw);
+  color: $bs-light;
+  font-weight: bold;
+  line-height: 2.5rem;
+  font-family: "Oswald";
+  letter-spacing: 0;
+  margin-bottom: 15px;
+}

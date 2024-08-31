@@ -22,12 +22,14 @@ function HsTestimonials() {
           </div>
           <div className="col-12 hsTestimonials-item">
             <div className="hsTestimonials-item-img item-img-2">
-              <div className="hsTestimonials-item-overlay">
-                <div className="hsTestimonials-content">
-                  <div className="hsTestimonialsc-text">
-                    “Great experience at Raffaele’s Hair Studio, wonderful
-                    customer service, friendly people and amazing styles!” —
-                    Henri Smith
+              <div className="hsTestimonials-item-overlay-wrapper">
+                <div className="hsTestimonials-item-overlay">
+                  <div className="hsTestimonials-content">
+                    <div className="hsTestimonialsc-text">
+                      “Great experience at Raffaele’s Hair Studio, wonderful
+                      customer service, friendly people and amazing styles!” —
+                      Henri Smith
+                    </div>
                   </div>
                 </div>
               </div>
@@ -35,12 +37,14 @@ function HsTestimonials() {
           </div>
           <div className="col-12 hsTestimonials-item">
             <div className="hsTestimonials-item-img item-img-3">
-              <div className="hsTestimonials-item-overlay">
-                <div className="hsTestimonials-content">
-                  <div className="hsTestimonialsc-text">
-                    “Great experience at Raffaele’s Hair Studio, wonderful
-                    customer service, friendly people and amazing styles!” —
-                    Carolina N.
+              <div className="hsTestimonials-item-overlay-wrapper">
+                <div className="hsTestimonials-item-overlay">
+                  <div className="hsTestimonials-content">
+                    <div className="hsTestimonialsc-text">
+                      “Great experience at Raffaele’s Hair Studio, wonderful
+                      customer service, friendly people and amazing styles!” —
+                      Carolina N.
+                    </div>
                   </div>
                 </div>
               </div>

@@ -34,35 +34,46 @@
           display: block;
           content: "";
         }
-        .hsTestimonials-item-overlay {
-          margin: 0.5rem;
-          border: 5px solid #262626;
+
+        .hsTestimonials-item-overlay-wrapper {
           position: absolute;
           top: 0;
           left: 0;
-          z-index: 3;
-          transition: all 0.5s;
-
-          height: calc(100% - (1rem + 10px));
-          .hsTestimonials-content {
-            padding: 1rem 1.2rem;
-            color: #fff;
-            height: inherit;
+          right: 0;
+          bottom: 0;
+          z-index: 2;
+          padding: 0.5rem;
+          .hsTestimonials-item-overlay {
+            border: 5px solid #262626;
+            height: 100%;
+            padding: 0 2rem 2.5rem;
+            box-sizing: border-box;
             display: flex;
             align-items: flex-end;
-            color: #262626;
-            font-weight: 600;
-            font-size: 1.2rem;
+            color: #6c757d;
+            font-size: 26px;
+            line-height: 1.2;
             transition: all 0.5s;
+            .hsTestimonials-content {
+              .hsTestimonialsc-text {
+                transition: all 0.5s;
+              }
+            }
           }
         }
       }
       &:hover {
-        .hsTestimonials-item-overlay {
-          border: 5px solid #b98e17;
-          .hsTestimonials-content {
-            transform: translateY(-50px);
-            color: #b98e17;
+        .hsTestimonials-item-img {
+          .hsTestimonials-item-overlay-wrapper {
+            .hsTestimonials-item-overlay {
+              color: #b98e17;
+              border: 5px solid #b98e17;
+              .hsTestimonials-content {
+                .hsTestimonialsc-text {
+                  transform: translateY(-50px);
+                }
+              }
+            }
           }
         }
       }
